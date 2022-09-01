@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Image</title>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h1>Text to Image</h1>
+    </section>
+    <section class="option">
+        <h2>設定</h2>
+        <div>
+            <p>大きさ</p>
+            <input class="input-width" type="number" value="256">
+            <span>px</span>
+            <span>x</span>
+            <input class="input-height" type="number" value="256">
+            <span>px</span>
+        </div>
+        <div>
+            <p>背景色</p>
+            <input class="input-background" type="color" value="#fff">
+        </div>
+        <div>
+            <p>文字色</p>
+            <input class="input-color" type="color" value="#000">
+        </div>
+        <div>
+            <p>テキスト</p>
+            <textarea class="input-text" name="text" id="" cols="30" rows="3">このテキストを書き換えてください</textarea>
+        </div>
+        <div>
+            <p>文字サイズ</p>
+            <input class="input-font-size" type="number" value="16">
+            <span>px</span>
+        </div>
+    </section>
+    <section>
+        <h2>プレビュー</h2>
+        <div class="output-background">
+            <div class="output-text">このテキストを書き換えてください</div>
+        </div>
+    </section>
+    <section>
+        <button class="btn-download">画像としてダウンロード</button>
+    </section>
+</body>
+
+</html>

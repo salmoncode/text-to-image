@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.option {
+    background-color: #ccc;
+}
+
+textarea {
+    width: 50%;
+}
+
+.output-background {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    width: 800px;
+    height: 450px;
+}
+
+.output-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
